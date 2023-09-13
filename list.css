@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: auto;
+    margin:20px;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif, Helvetica;
+
+}
+
+ol {
+
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-type: circle;
+    text-align: left;
+    list-style-position: inside;
+    /* Depends of the browser */
+    color: blue;
+    line-height: 1.5;
+    list-style-image: url('/checkmark-icon-2797531_640.png');
+    /*    list-style-image: url('./images/finger_small.png'); */
+    /* From free icons png */
+}
+
+ul li:nth-child(2) {
+    color: red;
+}
+
+/* Pseudo element starts with :: instead of a pseudo class */
+ul ::marker {
+    color: black;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "This >> ";
+}
