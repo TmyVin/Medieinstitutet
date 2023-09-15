@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlämning</title>
+</head>
+<body>
+    <main>
+        <article>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Student info</legend>
+                 <fieldset>
+                    <legend>Personal info</legend>
+                    <p>
+                        <label for="firstName">First Name:</label>
+                        <input
+                          type="text"
+                          name="firstName"
+                          id="firstName"
+                        />
+                    </p>
+                    <p>
+                        <label for="lastName">Last Name:</label>
+                        <input
+                          type="text"
+                          name="lastName"
+                          id="lastName"
+                          />
+                    </p>
+                    <p>
+                        <label for="Password">Password</label>
+                        <input
+                          type="text"
+                          name="password"
+                          id="password"
+                          />
+                    </p>      
+                 </fieldset>
+                  <fieldset>
+                    <legend>Photo</legend>
+                    <p>
+                        <img src="/IMG/Transparancy.jpg" width="300" height="200">
+                    </p>
+                    <p> När jag inte studerar!</p>
+                  </fieldset>
+                  <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+                </fieldset>
+                </form>
+        </article>
+    </main>
+</body>
+</html>
