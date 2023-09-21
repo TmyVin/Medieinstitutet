@@ -1,0 +1,15 @@
+.body {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.body .header2 {
+  color: blue;
+}
+
+.p2 ~ .p3 {
+  color: red;
+}
+.p2 ~ .p3 #BigL::first-letter {
+  font-size: 64px;
+  color: red;
+}/*# sourceMappingURL=style.css.map */

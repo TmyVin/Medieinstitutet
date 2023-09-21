@@ -1,0 +1,29 @@
+/*
+  First SASS file
+
+
+/*
+
+/* Variables */
+article {
+  background-color: blue;
+  color: rgb(127, 254, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+article section {
+  font-weight: 700;
+}
+article section .p1 {
+  font-weight: 400;
+}
+article section .main_section p {
+  color: darkgreen;
+}
+article section .main_section p:hover {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

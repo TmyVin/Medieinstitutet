@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background-image: url(../IMG/platter-2009590_1280.jpg);
+  text-align: center;
+  overflow: hidden;
+  padding-top: 10px;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.home .last-name {
+  color: orange;
+}
+
+footer .social-icons {
+  height: 50px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 2rem;
+  width: 20px;
+  height: 20px;
+}
+
+.fa-facebook {
+  background-color: darkblue;
+  color: white;
+}
+
+.fa-twitter {
+  background-color: lightblue;
+  color: white;
+}
+
+.fa-google {
+  background-color: green;
+  color: white;
+}
+
+.fa-linkedin {
+  background-color: blue;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: sticky;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.menu-nav_items a {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.menu-nav_items a:hover {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */

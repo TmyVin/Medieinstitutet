@@ -1,0 +1,22 @@
+@use 'sass:math';
+
+@function px($px){
+    @return math.div($px,16)+em;
+
+}
+
+@function body-theme($bgcolor){
+    @if $bgcolor == "light"{
+        @return black;
+    } @else {
+        @return blue;
+}
+}
+
+body {
+    font-weight: 700-200;
+    width: math.div(85.2,12.6);
+    font-size: px(30);
+    color: body-theme(light);
+
+}

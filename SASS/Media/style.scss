@@ -1,0 +1,33 @@
+$maxwidth: 400px; /* Maximum width for viewport */
+$width: 200px; /* width for the specific paragraf*/
+
+
+
+@mixin reduce ($maxwidth,$width){
+    @media (max-width :$maxwidth){
+    
+            width: $width;
+        }
+        
+}
+        
+        
+  .p1 {
+    @include reduce(400px,200px);
+  }
+
+  .p2 {
+   @include reduce(400px,100px);
+}
+
+@mixin new-layout{
+    .design {
+        background-color: black;
+        @content
+    }
+}    
+
+@include new-layout{
+    font-size: 10px;
+    margin:0;
+}
