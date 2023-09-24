@@ -19,24 +19,28 @@ ul{
 
 }
 .li{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-decoration: none;
     color: white;
 
 }
+a:hover {
+    color:yellow;
+}
+
 
 .container{
     display: grid;
-    grid-template-columns:15% 60% 25%;
-    grid-gap:20px;
-
+    grid-template-columns: repeat ( 4, 1fr);
+    grid-gap:0.5rem;
 }
 
 
 .box{
     color: white;
     padding:0.5rem;
-    
+    grid-template-columns: (4,1fr);
+
 }
 
 .box:first-child{
@@ -44,18 +48,17 @@ ul{
     place-content: start;
     grid-column-start: 1;
     grid-column-end: 3;
+    font-size: 20px;
 }
 .box:nth-child(2){
-    grid-column: 2;
+    grid-column: 1/4;
     grid-row: 1;
-    margin:1em;
 }
 
 .box:nth-child(3){
     background-color:lightblue;
-    grid-column-start: 3;
-    grid-row-start:2;
-    grid-row-end: 4;
+    grid-column:3;
+    grid-row:2/4;
 
 }
 
@@ -64,13 +67,14 @@ ul{
     grid-column:1;
     writing-mode: vertical-lr;
     text-orientation: mixed;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
 
 }
 
 .box:nth-child(5){
     background-color:purple;
     grid-column:2;
+    font-size: 20px;
 
 }
 
@@ -91,7 +95,7 @@ ul{
     height: 40px;
     justify-content: end;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .header{
