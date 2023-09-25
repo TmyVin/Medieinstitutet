@@ -1,0 +1,35 @@
+header{
+    background-color: red;
+    border:5px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+header .navigation{
+    background-color:aqua;
+}
+content{
+    border: 1px dotted black;
+    padding: 20px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+section > p:first-child{
+    background-color: palevioletred;
+}
+
+section:hover{
+    cursor:pointer;
+}
+
+#main-content{
+    background-color: greenyellow;
+}
+
+.circle{
+    border: 2px solid pink;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+}
