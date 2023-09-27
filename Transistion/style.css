@@ -27,12 +27,16 @@ div.circle{
     50%{top:0px;}
     100%{top:200px;}
 }
+@keyframes heart {
+    to{scale: 1.2;}
+}
 
 .heart{
     width: 100px;
     height:100px;
     background-color: red;
     transform: rotate(45deg);
+    animation: heart 1.5s infinite;
 
 }
 
