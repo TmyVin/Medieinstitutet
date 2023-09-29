@@ -1,5 +1,5 @@
 $primary-color: black;
-$secondary-color: gray;
+$secondary-color: white;
 $border-color: blue;
 $mark-color: orange;
 $menu-color: purple;
@@ -33,6 +33,7 @@ $menu-color: purple;
     color: white;
     text-decoration: none;
     text-align: center;
+    font-size: 1.5rem;
   }
   #hamitems a:hover { 
     background: #000000; }
@@ -56,7 +57,7 @@ $menu-color: purple;
     #hamnav label { 
       display: inline-block; 
       color: white;
-      background: #a02620;
+      background: black;
       font-style: normal;
       font-size: 2em;
       padding: 5px;
@@ -70,11 +71,18 @@ $menu-color: purple;
          display: block; }
 }
 
-.home {
+body{
     background-image: url(../IMG/platter-2009590_1280.jpg);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.home {
     text-align: center;
     overflow: hidden;
-    padding-top: 10px;
+    padding-top: 15rem;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -83,8 +91,8 @@ $menu-color: purple;
     }
     justify-content: center;
     align-items: center;
+    color: $secondary-color;
 }
-
 .main__about{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
@@ -101,7 +109,7 @@ footer {
     bottom: 0.4rem;
     right: 1rem;
     padding: 1rem;
-    color: set-text-color($primary-color);
+    color: set-text-color($secondary-color);
 } 
   
   footer .social-icons{
